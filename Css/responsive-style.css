@@ -1,0 +1,84 @@
+@media (max-width:1170px) {
+
+  /*General CSS*/
+  .section-subtitle {
+    max-width: 30%;
+  }
+
+  /*Navbar CSS*/
+  
+
+  /*Banner Section*/
+  .banner-section .carousel-caption h1 {
+    font-size: 60px;
+  }
+
+  .banner-section .carousel-caption h3 {
+    padding: 0.5rem 7rem;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .banner-section .carousel-caption p {
+    max-width: 35rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner-section .carousel-caption .main-btn {
+    padding: 1rem 3.5rem;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:768px) {
+  /*General CSS*/
+  .about .banner_section,
+  .product .banner_section,
+  .gallary .banner_section,
+  .contact .banner_section {
+    padding-top: 12.5rem;
+    padding-bottom: 3rem;
+  }
+
+  /*Navbar CSS*/
+  .header .navbar {
+    background-size: cover;
+    padding: 2rem;
+  }
+
+  .header .navbar-nav {
+    margin-top: 2rem;
+  }
+
+  .header .navbar-nav .nav-link {
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .header .header-right span {
+    padding: 0.2rem 0.5rem;
+  }
+
+  .banner-section .carousel-caption h1 {
+    font-size: 50px;
+  }
+
+  .banner-section .carousel-caption h3 {
+    padding: 0.5rem 3rem;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  
+  .banner-section .carousel-caption p {
+    max-width: 35rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner-section .carousel-caption .main-btn {
+    padding: 1rem 3.5rem;
+    height: 40px;
+    font-size: 13px;
+  }
+  
+}
